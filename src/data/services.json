@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Développement Web Full-Stack",
+    "icon": "FaCode",
+    "description": "Création d'applications web complètes avec interface moderne et base de données fonctionnelle.",
+    "features": [
+      "React pour le Frontend",
+      "PHP & MySQL pour le Backend",
+      "Gestion des utilisateurs",
+      "Systèmes CRUD"
+    ]
+  },
+  {
+    "title": "Développement Frontend",
+    "icon": "FaPaintBrush",
+    "description": "Interfaces modernes, responsive et dynamiques avec React et Bootstrap.",
+    "features": [
+      "React & JavaScript",
+      "Design Responsive",
+      "Animations & UX",
+      "Intégration de maquettes"
+    ]
+  },
+  {
+    "title": "Développement Backend",
+    "icon": "FaDatabase",
+    "description": "Création de bases de données et logique serveur pour applications web.",
+    "features": [
+      "PHP & MySQL",
+      "Gestion des données",
+      "Systèmes de connexion",
+      "Sécurité basique"
+    ]
+  },
+  {
+    "title": "Création de Sites Vitrines",
+    "icon": "FaRedo",
+    "description": "Sites web modernes pour présenter une entreprise, un service ou un portfolio.",
+    "features": [
+      "Design moderne",
+      "Compatible mobile",
+      "Chargement rapide",
+      "Optimisé SEO"
+    ]
+  },
+  {
+    "title": "Boutiques E-Commerce",
+    "icon": "FaShoppingCart",
+    "description": "Création de boutiques en ligne simples avec gestion des produits et panier.",
+    "features": [
+      "Catalogue produits",
+      "Panier d'achat",
+      "Gestion commandes",
+      "Interface administrateur"
+    ]
+  },
+  {
+    "title": "Gestion de Code & Déploiement",
+    "icon": "FaLightbulb",
+    "description": "Gestion du code avec Git & GitHub et aide à la mise en ligne des projets.",
+    "features": [
+      "Gestion GitHub",
+      "Versioning du code",
+      "Organisation des projets",
+      "Support technique"
+    ]
+  }
+]

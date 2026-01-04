@@ -1,0 +1,37 @@
+/* CSS Variables for themes */
+:root {
+  --primary-color: #6C63FF;
+  --secondary-color: #FF6F91;
+  --accent-color: #2F2FA2;
+  --light-bg: #ffffff;
+  --dark-bg: #121212;
+  --light-text: #000000;
+  --dark-text: #ffffff;
+  --light-card: #f8f9fa;
+  --dark-card: #1e1e1e;
+}
+
+body.dark-mode {
+  --bg-color: var(--dark-bg);
+  --text-color: var(--dark-text);
+  --card-bg: var(--dark-card);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body:not(.dark-mode) {
+  --bg-color: var(--light-bg);
+  --text-color: var(--light-text);
+  --card-bg: var(--light-card);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--card-bg) !important;
+}

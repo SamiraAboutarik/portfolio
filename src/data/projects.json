@@ -1,0 +1,68 @@
+[
+    {
+    "title": "Barber Hair",
+    "category": "Frontend",
+    "image": "/images/barber-hair.png",
+    "description": "Elegant cosmetic product website with modern UI, animations, and responsive design.",
+    "tech": ["React", "CSS", "Bootstrap"],
+    "demo": "https://barber-hair-app.vercel.app/",
+    "code": "https://github.com/SamiraAboutarik/Barber-Hair-App"
+  },
+  
+  {
+    "title": "Restaurant de luxe",
+    "category": "Frontend",
+    "image": "/images/resto-luxe.png",
+    "description": "Elegant cosmetic product website with modern UI, animations, and responsive design.",
+    "tech": ["React", "CSS", "Bootstrap"],
+    "demo": "https://samiraaboutarik.github.io/CosmeticSite",
+    "code": "https://github.com/SamiraAboutarik/CosmeticSite"
+  },
+
+  {
+    "title": "Boutique React",
+    "category": "Frontend",
+    "image": "/images/boutique-react.png",
+    "description": "Modern e-commerce store built with React featuring product listing, cart management, and responsive UI.",
+    "tech": ["React", "CSS", "Bootstrap"],
+    "demo": "https://samiraaboutarik.github.io/Boutique-React",
+    "code": "https://github.com/SamiraAboutarik/Boutique-React"
+  },
+  {
+    "title": "Tangerois MVP",
+    "category": "Full Stack",
+    "image": "/images/Tangerois-app.png",
+    "description": "Restaurant MVP project with modern UI, dynamic menus, and interactive user experience.",
+    "tech": ["React", "CSS", "Bootstrap"],
+    "demo": "https://samiraaboutarik.github.io/Tangerois-MVP",
+    "code": "https://github.com/SamiraAboutarik/Tangerois-MVP"
+  },
+  {
+    "title": "Learning App",
+    "category": "Frontend",
+"image": "/images/learning-app.png",
+    "description": "Educational web application for students with lessons, navigation, and interactive UI.",
+    "tech": ["React", "JavaScript", "CSS"],
+    "demo": "https://learning-app-asyh.vercel.app/",
+    "code": "https://github.com/SamiraAboutarik/LearningApp"
+  },
+  {
+    "title": "Employee Management App",
+    "category": "Frontend",
+    "image": "gestion-emp",
+    "description": "Employee management system using React Reducer with add, edit, delete, and filtering features.",
+    "tech": ["React", "Reducer", "Bootstrap"],
+    "demo": "https://samiraaboutarik.github.io/Gestion-Emp-En-React-Reducer",
+    "code": "https://github.com/SamiraAboutarik/Gestion-Emp-En-React-Reducer"
+  },
+  {
+    "title": "Cosmetic Website",
+    "category": "Frontend",
+    "image": "cosmetic-site",
+    "description": "Elegant cosmetic product website with modern UI, animations, and responsive design.",
+    "tech": ["React", "CSS", "Bootstrap"],
+    "demo": "https://samiraaboutarik.github.io/CosmeticSite",
+    "code": "https://github.com/SamiraAboutarik/CosmeticSite"
+  }
+
+]

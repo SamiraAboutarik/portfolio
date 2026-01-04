@@ -1,0 +1,87 @@
+/* Custom animations with aura effects */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 5px rgba(108, 99, 255, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(108, 99, 255, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(108, 99, 255, 0.5); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease-in-out;
+}
+
+.zoom-in {
+  animation: zoomIn 1s ease-in-out;
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
+
+/* Typing effect for hero */
+.typing-text {
+  text-align: center;
+  border-right: 2px solid #6C63FF;
+  animation: blink 1s infinite, pulseGlow 2s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { border-color: #6C63FF; }
+  51%, 100% { border-color: transparent; }
+}
+
+/* Hero section with dynamic gradient and particles effect */
+.hero-section {
+  background: linear-gradient(135deg, #6C63FF, #FF6F91, #2F2FA2);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+  animation: float 10s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100vh); }
+}

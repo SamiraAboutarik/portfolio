@@ -1,0 +1,27 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      { "name": "HTML", "level": 90 },
+      { "name": "CSS", "level": 85 },
+      { "name": "JavaScript", "level": 80 },
+      { "name": "React", "level": 85 },
+      { "name": "Bootstrap", "level": 80 }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      { "name": "PHP", "level": 75 },
+      { "name": "MySQL", "level": 80 }
+    ]
+  },
+  {
+    "category": "Tools",
+    "skills": [
+      { "name": "Git & GitHub", "level": 85 },
+      { "name": "VS Code", "level": 90 },
+      { "name": "Figma", "level": 70 }
+    ]
+  }
+]
