@@ -49,11 +49,18 @@ export default function Services() {
                   {service.description}
                 </p>
 
-                <ul className="list-unstyled text-start small">
+                <ul className="list-unstyled text-start small service-features">
                   {service.features.map((item, i) => (
-                    <li key={i} className="mb-2">
-                            <FaCheck style={{ color: "linear-gradient(45deg, #b056ff, #ff5dab)", fontSize: "16px" , margin: "5px" }} />
- {item}
+                    <li key={i} className="d-flex align-items-start gap-3 mb-3">
+                      
+                      {/* Check icon luxe */}
+                      <span className="check-badge">
+                        <FaCheck />
+                      </span>
+
+                      {/* Text */}
+                      <span className="feature-text">{item}</span>
+
                     </li>
                   ))}
                 </ul>

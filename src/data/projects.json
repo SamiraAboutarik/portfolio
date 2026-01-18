@@ -46,23 +46,32 @@
     "demo": "https://learning-app-asyh.vercel.app/",
     "code": "https://github.com/SamiraAboutarik/LearningApp"
   },
-  {
-    "title": "Employee Management App",
-    "category": "Frontend",
-    "image": "gestion-emp",
-    "description": "Employee management system using React Reducer with add, edit, delete, and filtering features.",
-    "tech": ["React", "Reducer", "Bootstrap"],
-    "demo": "https://samiraaboutarik.github.io/Gestion-Emp-En-React-Reducer",
-    "code": "https://github.com/SamiraAboutarik/Gestion-Emp-En-React-Reducer"
-  },
-  {
-    "title": "Cosmetic Website",
-    "category": "Frontend",
-    "image": "cosmetic-site",
-    "description": "Elegant cosmetic product website with modern UI, animations, and responsive design.",
-    "tech": ["React", "CSS", "Bootstrap"],
-    "demo": "https://samiraaboutarik.github.io/CosmeticSite",
-    "code": "https://github.com/SamiraAboutarik/CosmeticSite"
-  }
 
+ {
+  "title": "Can 2025",
+  "category": "Frontend",
+  "image": "/images/can-2025.png",
+  "description": "A responsive web app providing key information about the CAN 2025 competition.",
+  "tech": ["React", "CSS", "Bootstrap"],
+  "demo": "https://can2025-seven.vercel.app/",
+  "code": "https://github.com/SamiraAboutarik/can2025"
+},
+{
+  "title": "Gestion Absence OFPPT",
+  "category": "Frontend",
+  "image": "/images/Gest-Abs.png",
+  "description": "A frontend application for tracking and managing student absences.",
+  "tech": ["React", "CSS", "Bootstrap"],
+  "demo": "https://gestion-px9bzctbp-samiras-projects-ab056ac0.vercel.app/",
+  "code": "https://github.com/SamiraAboutarik/GestionAbs"
+},
+{
+  "title": "Books App",
+  "category": "Frontend",
+  "image": "/images/Books-app.png",
+  "description": "A React-based app for managing and searching books.",
+  "tech": ["React", "CSS", "Bootstrap"],
+  "demo": "https://books-app-nu-amber.vercel.app/",
+  "code": "https://github.com/SamiraAboutarik/Books-App"
+}
 ]

@@ -262,6 +262,30 @@ body.dark-mode .skill-card { background: #15141d; border-color: #262433; }
 .service-card-pro:hover { transform: translateY(-12px); box-shadow: 0 35px 80px rgba(176, 86, 255, 0.25); }
 .service-icon-pro { width: 78px; height: 78px; border-radius: 20px; background: linear-gradient(45deg, #b056ff, #ff5dab); color: white; font-size: 34px; display: flex; align-items: center; justify-content: center; transition: 0.4s; }
 .list-unstyled { color: #d83b80; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; margin: 10px; }
+/* FEATURES LIST */
+.service-features {
+  margin-top: 20px;
+}
+
+.check-badge {
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #b056ff, #ff5dab);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  box-shadow: 0 6px 15px rgba(176, 86, 255, 0.35);
+}
+
+.feature-text {
+  color: #444;
+  line-height: 1.6;
+}
+
 .service-card-pro:hover .service-icon-pro { transform: rotate(8deg) scale(1.15); }
 body.dark-mode .services-section { background: radial-gradient(circle, #12081e, #1a0d2e); border: none; }
 body.dark-mode .service-card-pro { background: rgba(25, 20, 40, 0.95); border-color: rgba(255, 255, 255, 0.1); box-shadow: 0 0 30px rgba(176, 86, 255, 0.3); }
@@ -417,10 +441,11 @@ body.dark-mode .typing-text-pro { color: #ffb3ff; }
 
 /* Icon color changes per platform */
 .neo-item:nth-child(1):hover i { color: #1877f2; }
-.neo-item:nth-child(2):hover i { color: #1da1f2; }
+.neo-item:nth-child(2):hover i { color: #44c21e; }
 .neo-item:nth-child(3):hover i { color: #e4405f; }
 .neo-item:nth-child(4):hover i { color: #000; }
-.neo-item:nth-child(5):hover i { color: #ff0000; }
+.neo-item:nth-child(5):hover i { color: #528ab8; }
+
 
 body.dark-mode .footer-pro { background: radial-gradient(circle, #12081e, #1a0d2e); border-color: rgba(255, 255, 255, 0.1); }
 body.dark-mode .footer-pro p { color: #ccc; }
@@ -1103,3 +1128,4 @@ body.dark-mode .theme-btn { animation: spin 0.5s ease; }
 .contact-section-pro {
   padding-top: 40px !important;
 }
+

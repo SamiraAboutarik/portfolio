@@ -4,7 +4,7 @@ import { FaGraduationCap, FaBriefcase, FaUser } from "react-icons/fa";
 export default function About() {
   return (
     <section className="about-section-pro py-5" data-aos="fade-up">
-      <div className="container">
+      <div className="container-fluid">
 
         {/* ✅ TITLE */}
         <div className="text-center mb-5">
@@ -19,7 +19,7 @@ export default function About() {
         <div className="row g-4 align-items-stretch">
 
           {/* ✅ LEFT CARD */}
-          <div className="col-lg-6">
+          <div className="col-12 col-md-6">
             <div className="about-card-pro h-100 p-4">
 
               <h4 className="fw-bold mb-3">Full-Stack Developer</h4>
@@ -41,7 +41,8 @@ As a student in digital development, I focus on writing clean code, creating
                 </div>
                 <div className="col-6 mb-3">
                   <p className="info-label">Email</p>
-                  <p className="fw-semibold">samiraaboutarik45@gmail.com</p>
+                 <p className="fw-semibold">samiraaboutarik45@gmail.com</p>
+
                 </div>
                 <div className="col-6 mb-3">
                   <p className="info-label">Location</p>
@@ -61,7 +62,7 @@ As a student in digital development, I focus on writing clean code, creating
           </div>
 
           {/* ✅ RIGHT TIMELINE */}
-          <div className="col-lg-6">
+          <div className="col-12 col-md-6">
             <div className="d-flex flex-column gap-3">
 
               {/* ✅ ITEM 1 */}

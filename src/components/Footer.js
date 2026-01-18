@@ -8,33 +8,34 @@ export default function Footer() {
 
         {/* ✅ LOGO / NAME */}
         <h4 className="fw-bold mb-2">
-          Sami <span className="text-gradient">Aboutarik</span>
+          Samira <span className="text-gradient">Aboutarik</span>
         </h4>
 
         {/* ✅ DESCRIPTION */}
         <p className="text-muted small mb-4">
-          Full-Stack Developer • React • Laravel • MySQL
+          Full-Stack Developer • React • PHP • MySQL
         </p>
 
         {/* ✅ SOCIAL ICONS */}
         <div className="social-neo d-flex justify-content-center gap-3 mb-4">
 
   <div className="neo-item">
-    <a href="https://facebook.com" target="_blank" rel="noreferrer">
+    <a href="https://www.facebook.com/profile.php?id=100036170468703" target="_blank" rel="noreferrer">
       <i className="fab fa-facebook-f"></i>
       <span className="label">Facebook</span>
     </a>
   </div>
 
   <div className="neo-item">
-    <a href="https://twitter.com" target="_blank" rel="noreferrer">
-      <i className="fab fa-twitter"></i>
-      <span className="label">Twitter</span>
+    <a href="https://wa.me/212641322297" target="_blank" rel="noreferrer">
+      <i className="fab fa-whatsapp"></i>
+      <span className="label">WatssApp</span>
     </a>
   </div>
 
+
   <div className="neo-item">
-    <a href="https://instagram.com" target="_blank" rel="noreferrer">
+    <a href="https://www.instagram.com/s_aboutarik?igsh=bGZ4Z2Z6eHVuYWQ5" target="_blank" rel="noreferrer">
       <i className="fab fa-instagram"></i>
       <span className="label">Instagram</span>
     </a>
@@ -46,7 +47,12 @@ export default function Footer() {
       <span className="label">GitHub</span>
     </a>
   </div>
-
+    <div className="neo-item">
+    <a href="https://www.linkedin.com/in/samira-aboutarik/" target="_blank" rel="noreferrer">
+      <i className="fab fa-linkedin"></i>
+      <span className="label">LinkedIn</span>
+    </a>
+  </div>
 
 
 </div>
