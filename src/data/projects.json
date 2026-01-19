@@ -15,8 +15,8 @@
     "image": "/images/resto-luxe.png",
     "description": "Elegant cosmetic product website with modern UI, animations, and responsive design.",
     "tech": ["React", "CSS", "Bootstrap"],
-    "demo": "https://samiraaboutarik.github.io/CosmeticSite",
-    "code": "https://github.com/SamiraAboutarik/CosmeticSite"
+    "demo": "https://saluxe.vercel.app/",
+    "code": "https://github.com/SamiraAboutarik/Resto-App"
   },
 
   {
@@ -25,7 +25,7 @@
     "image": "/images/boutique-react.png",
     "description": "Modern e-commerce store built with React featuring product listing, cart management, and responsive UI.",
     "tech": ["React", "CSS", "Bootstrap"],
-    "demo": "https://samiraaboutarik.github.io/Boutique-React",
+    "demo": "https://boutique-react.vercel.app/",
     "code": "https://github.com/SamiraAboutarik/Boutique-React"
   },
   {
@@ -34,7 +34,7 @@
     "image": "/images/Tangerois-app.png",
     "description": "Restaurant MVP project with modern UI, dynamic menus, and interactive user experience.",
     "tech": ["React", "CSS", "Bootstrap"],
-    "demo": "https://samiraaboutarik.github.io/Tangerois-MVP",
+    "demo": "https://tangerois-mvp.vercel.app/",
     "code": "https://github.com/SamiraAboutarik/Tangerois-MVP"
   },
   {
@@ -62,7 +62,7 @@
   "image": "/images/Gest-Abs.png",
   "description": "A frontend application for tracking and managing student absences.",
   "tech": ["React", "CSS", "Bootstrap"],
-  "demo": "https://gestion-px9bzctbp-samiras-projects-ab056ac0.vercel.app/",
+  "demo": "https://gestion-abs.vercel.app/",
   "code": "https://github.com/SamiraAboutarik/GestionAbs"
 },
 {

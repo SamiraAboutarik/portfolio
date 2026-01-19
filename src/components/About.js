@@ -1,6 +1,6 @@
 import React from "react";
 import {  FaBriefcase, FaUser } from "react-icons/fa";
-
+import { Button } from "react-bootstrap";
 export default function About() {
   return (
     <section className="about-section-pro py-5" data-aos="fade-up">
@@ -54,9 +54,12 @@ As a student in digital development, I focus on writing clean code, creating
                 </div>
               </div>
 
-              <button className="btn gradient-btn w-100 mt-3">
+              <Button className="btn gradient-btn w-100 mt-3"                 
+                      as="a"
+                      href="/images/CV.pdf"
+                      download="Samira_Aboutarik_CV.pdf">
                 Download CV
-              </button>
+              </Button>
 
             </div>
           </div>
