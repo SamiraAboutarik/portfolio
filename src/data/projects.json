@@ -68,7 +68,7 @@
 {
   "title": "Books App",
   "category": "Frontend",
-  "image": "/images/Books-app.png",
+  "image": "/images/Books-App.png",
   "description": "A React-based app for managing and searching books.",
   "tech": ["React", "CSS", "Bootstrap"],
   "demo": "https://books-app-nu-amber.vercel.app/",
