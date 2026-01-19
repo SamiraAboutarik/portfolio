@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGraduationCap, FaBriefcase, FaUser } from "react-icons/fa";
+import {  FaBriefcase, FaUser } from "react-icons/fa";
 
 export default function About() {
   return (
