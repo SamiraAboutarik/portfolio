@@ -1,169 +1,120 @@
-🌌 Portfolio React – Version Bootstrap 5 (Premium)
+# 🌌 Samira Aboutarik - Portfolio
 
-<p align="center"> <img src="https://img.shields.io/github/license/votre-username/portfolio-bootstrap?style=for-the-badge&color=7c3aed" /> <img src="https://img.shields.io/github/stars/votre-username/portfolio-bootstrap?style=for-the-badge&color=ec4899" /> <img src="https://img.shields.io/github/forks/votre-username/portfolio-bootstrap?style=for-the-badge&color=a855f7" /> <img src="https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-5.3-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/AOS-Animations-000000?style=for-the-badge&logo=aos&logoColor=white" /> </p>
-📸 Aperçu du Portfolio
+Welcome to my professional portfolio! This project is a modern, responsive, and premium web application built using **React** and **Bootstrap 5**. It showcases my skills, projects, and educational background with a sleek "Aura" design aesthetic.
 
-(Tu pourras remplacer ces images avec de vrais screenshots de ton site)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/AOS-Animations-000000?style=for-the-badge&logo=aos&logoColor=white" />
+</p>
 
-Home	Projects	Contact
+---
 
-	
-	
-📑 Table des Matières
+## ✨ Features
 
-✨ Fonctionnalités
+- **🎨 Premium & Modern Design**:
+  - Vibrant gradients (Purple to Pink).
+  - Glassmorphism effects for a lightweight, modern feel.
+  - Interactive 3D hover effects and smooth transitions.
+- **🌙 Advanced Dark Mode**:
+  - Global theme toggle with smooth fade transitions.
+  - Theme persistence using `localStorage`.
+- **📱 Fully Responsive**: Optimized for all screen sizes, from mobile devices to large desktops.
+- **🚀 Performance**: Fast loading times and smooth scroll animations (AOS).
+- **🧩 Interactive Components**:
+  - **Hero**: Typing effect with professional image presentation.
+  - **About**: Detailed timeline and personal information grid.
+  - **Skills**: Animated progress bars and skill badges.
+  - **Services**: Interactive cards with glow effects.
+  - **Projects**: Filterable project gallery with image overlays.
+  - **Contact**: Stylized, fully functional reactive form.
 
-🛠 Technologies Utilisées
+---
 
-📦 Installation
+## 🛠 Technologies Used
 
-🚀 Utilisation
+- **Frontend**: React.js, Bootstrap 5, FontAwesome, React Icons
+- **Animations**: AOS (Animate On Scroll), CSS3 Transitions & Keyframes
+- **Tools**: NPM, Git, Figma (Design)
 
-📁 Structure du Projet
+---
 
-🎨 Personnalisation
+## 📦 Getting Started
 
-🐛 Dépannage
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SamiraAboutarik/portfolio.git
+cd portfolio
+```
 
-🤝 Contribution
-
-📄 Licence
-
-📞 Contact
-
-✨ Fonctionnalités
-🎨 Design Premium & Pro
-
-Dégradés violet ► rose
-
-Glassmorphism (flou + transparence)
-
-Hover 3D + Tilt + Parallax
-
-Animations douces (AOS + CSS + GSAP optionnel)
-
-🌙 Mode Sombre Avancé
-
-Toggle avec fade global
-
-Sauvegarde du thème (localStorage)
-
-Bootstrap variables inversées automatiquement
-
-🧩 Composants Interactifs Inclus
-Composant	Description
-Navbar	Sticky + glass + underline animé
-Hero	Typing effect + image flottante
-About	Timeline + animations
-Skills	Progress bars animées
-Services	Icônes interactives + hover glow
-Projects	Filtres + overlay + animations
-Contact	Formulaire stylisé & responsive
-Footer	Icônes animées
-Loader	Spinner premium personnalisé
-ScrollToTop	Bouton animé
-🛠 Technologies Utilisées
-<p align="center"> <img src="https://skillicons.dev/icons?i=react,bootstrap,js,vite,figma,git,github,css" /> </p>
-📦 Installation
-1️⃣ Cloner le projet
-git clone https://github.com/votre-username/portfolio-bootstrap.git
-cd portfolio-bootstrap
-
-2️⃣ Installer les dépendances
+### 2️⃣ Install dependencies
+```bash
 npm install
+```
 
-3️⃣ Installer Bootstrap + AOS
-npm install bootstrap bootstrap-icons aos
-
-4️⃣ Importer dans index.js
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "aos/dist/aos.css";
-
-🚀 Utilisation
-Démarrer le serveur
+### 3️⃣ Start the development server
+```bash
 npm start
+```
 
-Build production
-npm run build
+---
 
-Tester les features :
+## 📁 Project Structure
 
-Animations AOS ✔
-
-Dark mode ✔
-
-Hover glow, tilt, transitions ✔
-
-ScrollToTop ✔
-
-Loader animé ✔
-
-📁 Structure du Projet
-portfolio-bootstrap/
-├── public/
+```text
+portfolio/
+├── public/          # Static assets (images, favicon, CV)
 ├── src/
-│   ├── components/
-│   ├── routes/
-│   ├── data/
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── package.json
-└── README.md
+│   ├── components/  # Reusable UI components (Navbar, About, Projects, etc.)
+│   ├── styles/      # CSS files (global, variables, animations)
+│   ├── routes/      # Application routing
+│   ├── data/        # Project and skill data
+│   ├── App.js       # Main application component
+│   └── index.js     # Entry point
+├── package.json     # Project dependencies and scripts
+└── README.md        # Project documentation
+```
 
-🎨 Personnalisation
-🎨 1. Modifier les couleurs globales
+---
+
+## 🎨 Customization
+
+### 1. Global Colors
+Modify `src/styles/variables.css` to update the primary and secondary colors:
+```css
 :root {
-  --primary: #7c3aed;
-  --secondary: #ec4899;
-  --gradient-main: linear-gradient(135deg, var(--primary), var(--secondary));
+  --primary-color: #b056ff;
+  --secondary-color: #ff5dab;
 }
+```
 
-🌙 2. Mode sombre
-body.dark-mode {
-  background: #0f0f14;
-  color: #ffffff;
-  transition: background 0.4s ease, color 0.4s ease;
-}
+### 2. Adding Projects
+Update the project data in `src/data/projects.js` to add or modify your work.
 
-🌀 3. Animation float image
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
+---
 
-🐛 Dépannage
-Problème	Solution
-AOS ne fonctionne pas	Ajouter AOS.init() dans App.js
-Progress bars figées	Activer AOS sur chaque bar
-Dark mode clignote	Ajouter transition sur body
-Navbar collapse bug	Vérifier import bootstrap.bundle
-🤝 Contribution
+## 🤝 Contributing
 
-Fork du projet
+Contributions are welcome! If you have any ideas or find any bugs, please open an issue or submit a pull request.
 
-Créer une feature :
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-git checkout -b feature/nom
+---
 
+## 📄 License
 
-Commit :
+This project is licensed under the MIT License. Feel free to use it for your own portfolio!
 
-git commit -m "Ajout d'une nouvelle section"
+---
 
+## 📞 Contact
 
-Push & PR
-
-📄 Licence
-
-MIT License — libre d’usage et modification.
-
-📞 Contact
-
-👤 Auteur : Samira Aboutarik
-📧 Email : samiraaboutarik45@gmail.com
-
-🔗 LinkedIn : Votre profil
-💼 Portfolio Online : (ajoute ici le lien)
+**Samira Aboutarik**
+- 📧 **Email**: [samiraaboutarik45@gmail.com](mailto:samiraaboutarik45@gmail.com)
+- 📍 **Location**: Agadir, Morocco
+- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/samira-aboutarik-719584282/)
+- 🌐 **Portfolio**: [Online Demo](https://samira-aboutarik.vercel.app/)

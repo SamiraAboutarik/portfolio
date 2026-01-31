@@ -1,5 +1,5 @@
 import React from "react";
-import {  FaBriefcase, FaUser } from "react-icons/fa";
+import { FaBriefcase, FaUser } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 export default function About() {
   return (
@@ -25,39 +25,38 @@ export default function About() {
               <h4 className="fw-bold mb-3">Full-Stack Developer</h4>
 
               <p className="text-muted">
-  I'm a motivated Junior Full-Stack Developer specializing in React, PHP, and MySQL.
-  I enjoy building modern, responsive, and user-friendly web applications.              </p>
+                I'm a motivated Junior Full-Stack Developer specializing in React, PHP, and MySQL.
+                I enjoy building modern, responsive, and user-friendly web applications.              </p>
 
               <p className="text-muted">
-As a student in digital development, I focus on writing clean code, creating
-  attractive interfaces, and continuously improving my skills through real projects.
+                As a student in digital development, I focus on writing clean code, creating
+                attractive interfaces, and continuously improving my skills through real projects.
               </p>
 
               {/* ✅ INFO GRID */}
               <div className="row mt-4">
-                <div className="col-6 mb-3">
+                <div className="col-12 col-sm-6 mb-3">
                   <p className="info-label">Name</p>
                   <p className="fw-semibold">Samira Aboutarik</p>
                 </div>
-                <div className="col-6 mb-3">
+                <div className="col-12 col-sm-6 mb-3">
                   <p className="info-label">Email</p>
-                 <p className="fw-semibold">samiraaboutarik45@gmail.com</p>
-
+                  <p className="fw-semibold text-break">samiraaboutarik45@gmail.com</p>
                 </div>
-                <div className="col-6 mb-3">
+                <div className="col-12 col-sm-6 mb-3">
                   <p className="info-label">Location</p>
                   <p className="fw-semibold">Morocco, Agadir</p>
                 </div>
-                <div className="col-6 mb-3">
+                <div className="col-12 col-sm-6 mb-3">
                   <p className="info-label">Availability</p>
                   <p className="fw-semibold text-success ">Available</p>
                 </div>
               </div>
 
-              <Button className="btn gradient-btn w-100 mt-3"                 
-                      as="a"
-                      href="/images/CV.pdf"
-                      download="Samira_Aboutarik_CV.pdf">
+              <Button className="btn gradient-btn w-100 mt-3"
+                as="a"
+                href="/images/CV.pdf"
+                download="Samira_Aboutarik_CV.pdf">
                 Download CV
               </Button>
 
